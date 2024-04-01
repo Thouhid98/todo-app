@@ -16,8 +16,8 @@ const AddTask = () => {
     <div>
       
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder='Add task' className='border-2 rounded-lg w-72 p-2 bg-white border-cyan-700'  value={title} onChange={(e) => setTitle(e.target.value)} />
-        <button className="btn ml-2 text-white btn-accent">Add Task</button>
+        <input type="text" placeholder='Add task' className='border-2 ml-2 rounded-lg w-72 p-2 bg-white border-cyan-700'  value={title} onChange={(e) => setTitle(e.target.value)} />
+        <button className="btn ml-2 mt-2 text-white btn-accent">Add Task</button>
       </form>
     </div>
   );

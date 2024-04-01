@@ -13,7 +13,7 @@ const TaskList = () => {
 
   return (
     <div>
-      <h2 className='lg:-ml-[300px] text-4xl font-bold mt-5 mb-3'>Tasks List</h2>
+      <h2 className='lg:-ml-[300px] text-4xl ml-2 font-bold mt-5 mb-3'>Tasks List</h2>
       <ul>
         {tasks.map(task => (
           <TaskItem key={task.id} task={task} onDelete={handleDelete} />
